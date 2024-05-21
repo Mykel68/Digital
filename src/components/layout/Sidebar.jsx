@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Menu } from "@/components/layout/Menu";
 import { useSidebarToggle } from "@/hooks/use-sidebar-toggle";
 import { SidebarToggle } from "@/components/layout/sidebar-toggle";
-// import UserItem from "@/components/layout/user-item";
+import UserItem from "@/components/layout/user-item";
 
 export function Sidebar() {
   const sidebar = useStore(useSidebarToggle, (state) => state);
