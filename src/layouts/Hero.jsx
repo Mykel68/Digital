@@ -1,5 +1,4 @@
 import Image from "next/image";
-import CallToAction from "@/components/static/call_to_action";
 
 const Hero = ({ title, description, image, children }) => {
   return (
@@ -43,7 +42,7 @@ const Hero = ({ title, description, image, children }) => {
           </div>
         ) : null}
       </div>
-      <CallToAction />
+
       <svg
         className="blob absolute -left-32 top-10 w-[500px] xl:left-0"
         viewBox="0 0 200 200"

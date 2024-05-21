@@ -5,6 +5,8 @@ import Hero from "@/layouts/Hero";
 import About from "@/layouts/About";
 import Footer from "@/layouts/Footer";
 import Testimonials from "@/layouts/Testimonials";
+import FAQ from "@/layouts/FAQ";
+import CallToAction from "@/layouts/call_to_action";
 
 import Girl from "@/assets/girl.png";
 
@@ -22,6 +24,8 @@ export default function Home() {
 
         <About />
         <Testimonials />
+        <FAQ />
+        <CallToAction />
       </div>
       <Footer />
     </main>
