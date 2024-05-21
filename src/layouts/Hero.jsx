@@ -17,12 +17,10 @@ const Hero = ({ title, description, image, children }) => {
           </div>
           <div className="flex justify-center gap-8 lg:justify-start">
             <div className="bg-slate-400 p-3 rounded">
-              <h2 className="text-center lg:text-left font-bold text-5xl text-purple-800">
+              <h2 className="text-center  font-bold text-5xl text-purple-800">
                 4k+
               </h2>
-              <p className="text-center text-gray-200 font-bold lg:text-left">
-                somethings
-              </p>
+              <p className="text-center text-gray-200 font-bold ">somethings</p>
             </div>
             <div className="bg-slate-400 p-3 rounded">
               <h2 className="text-center lg:text-left text-5xl font-bold text-purple-800">

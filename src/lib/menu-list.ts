@@ -63,9 +63,9 @@ export function getMenuList(pathname: string): Group[] {
               active: pathname === "/payment/eWallet",
             },
             {
-              href: "/payment/reciept",
-              label: "Reciept",
-              active: pathname === "/payment/reciept",
+              href: "/payment/receipt",
+              label: "Receipt",
+              active: pathname === "/payment/receipt",
             },
             {
               href: "/payment/transaction_history",

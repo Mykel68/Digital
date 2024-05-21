@@ -65,11 +65,11 @@ export default function Navbar({ className }: { className?: string }) {
   return (
     <nav
       className={cn(
-        "fixed z-20 h-[69px] w-full bg-[#4e0148] p-4  rounded-3xl",
+        "fixed z-20 h-[100px] md:h-[70px]  w-full bg-[#4e0148] p-4   rounded-3xl",
         className
       )}
     >
-      <div className=" flex  items-center justify-around">
+      <div className=" flex flex-col md:flex-row items-center justify-around">
         <Link href="/" className="text-lg font-bold tracking-tight text-white">
           Digital Humanities
         </Link>
@@ -136,6 +136,12 @@ export default function Navbar({ className }: { className?: string }) {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
+        <Link
+          href="/login"
+          className="bg-blue-500 text-md py-2 px-5  text-muted rounded-xl"
+        >
+          Login
+        </Link>
       </div>
     </nav>
   );

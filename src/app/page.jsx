@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col  ">
       <Navbar className="top-3 " />
-      <div className=" container  flex flex-col gap-4 ">
+      <div className=" container  flex flex-col gap-4">
         {/* <NavbarDemo /> */}
         <Hero
           title="Institute of Digital Humanities"

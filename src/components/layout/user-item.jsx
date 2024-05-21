@@ -6,7 +6,6 @@ import {
   TooltipContent,
   TooltipProvider,
 } from "@/components/ui/tooltip";
-import { Ellipsis } from "lucide-react";
 
 export default function UserItem({ name, email, fallback, isOpen }) {
   return isOpen || isOpen === undefined ? (
@@ -25,7 +24,7 @@ export default function UserItem({ name, email, fallback, isOpen }) {
         <Tooltip delayDuration={100}>
           <TooltipTrigger className="w-full">
             <div className="w-full flex justify-center items-center ">
-              <div className="avatar rounded-full min-h-12 min-w-12 bg-purple-800 text-white flex items-center justify-center">
+              <div className="avatar rounded-full  bg-purple-800 text-white flex items-center justify-center">
                 <p>{fallback}</p>
               </div>
             </div>

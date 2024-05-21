@@ -42,20 +42,6 @@ const BreadcrumbComponent = () => {
                   </BreadcrumbLink>
                   <ChevronDown className="h-4 w-4" />
                 </DropdownMenuTrigger>
-                {/* <DropdownMenuContent align="start">
-                  <DropdownMenuItem>
-                    <Link href="/payment">Payment</Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <Link href="/registration">Registration</Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <Link href="/results">Results</Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <Link href="/clearance">Clearance</Link>
-                  </DropdownMenuItem>
-                </DropdownMenuContent> */}
               </DropdownMenu>
             </BreadcrumbLink>
           </BreadcrumbItem>
@@ -70,7 +56,7 @@ const BreadcrumbComponent = () => {
                 return (
                   <h4
                     key={path}
-                    className={isLast ? "text-purple-500" : "text-blue-500"}
+                    className={isLast ? "text-purple-500" : "hidden"}
                   >
                     {isLast ? (
                       segment.charAt(0).toUpperCase() + segment.slice(1)

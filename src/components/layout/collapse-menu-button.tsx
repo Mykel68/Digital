@@ -101,12 +101,18 @@ export function CollapseMenuButton({
         {submenus.map(({ href, label, active }, index) => (
           <Button
             key={index}
-            variant={active ? "secondary" : "ghost"}
+            variant="ghost"
+            // variant={active ? "ghost" : "ghost"}
             className="w-full justify-start h-10 mb-1"
             asChild
           >
             <Link href={href}>
-              <span className="mr-4 ml-2 bg-[#4e0148] w-1 h-1 rounded ">
+              <span
+                className={cn(
+                  "mr-4 ml-2  w-1 h-1 rounded ",
+                  active ? "bg-[#4e0148] font-bold" : "bg-transparent"
+                )}
+              >
                 {/* <Dot size={18} /> */}
               </span>
               <p
