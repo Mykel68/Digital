@@ -1,5 +1,5 @@
 import React from "react";
-import SectionHeader from "@/components/static/section_header";
+import SectionHeader from "@/layouts/section_header";
 import {
   Accordion,
   AccordionContent,

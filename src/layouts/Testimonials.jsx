@@ -50,7 +50,7 @@
 
 import React, { useEffect, useState } from "react";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import SectionHeader from "@/components/static/section_header";
+import SectionHeader from "@/layouts/section_header";
 
 export default function InfiniteMovingCardsDemo() {
   return (

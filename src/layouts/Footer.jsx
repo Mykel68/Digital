@@ -30,8 +30,8 @@ const footerLinks = [
 const Footer = () => {
   return (
     <section className="px-4 bg-gray-200">
-      <div className="mx-auto grid w-full max-w-screen-xl gap-8 py-20 lg:grid-cols-5">
-        <div className="sm:col-span-3 lg:col-span-2">
+      <div className="mx-auto grid w-full max-w-screen-xl gap-8 py-20 lg:grid-cols-5 grid-cols-3">
+        <div className="col-span-3 lg:col-span-2">
           <h3 className="mb-2 text-sm font-bold">
             Institute of Digital Humanities
           </h3>

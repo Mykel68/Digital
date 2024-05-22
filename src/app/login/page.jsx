@@ -13,7 +13,10 @@ import { Label } from "@/components/ui/label";
 
 export default function LoginForm() {
   return (
-    <div className="min-h-screen flex items-center bg-gray-100">
+    <div className="min-h-screen flex flex-col items-center justify-center gap-2 bg-gray-100">
+      <h2 className="text-2xl text-center text-purple-800 font-semibold">
+        Institute of Digital Humanities
+      </h2>
       <Card className="mx-auto max-w-sm  ">
         <CardHeader>
           <CardTitle className="text-2xl">Login</CardTitle>

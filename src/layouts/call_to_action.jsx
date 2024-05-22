@@ -17,8 +17,8 @@ const CallToAction = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-[300px] text-white">
-        <h2 className="text-3xl lg:text-5xl font-bold mb-4">
+      <div className="relative z-10 flex flex-col items-center justify-center h-[300px] text-white p-3">
+        <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-center">
           Join Our University Today
         </h2>
         <p className="max-w-md mb-8 text-center">

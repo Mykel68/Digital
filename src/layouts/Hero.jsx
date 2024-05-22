@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = ({ title, description, image, children }) => {
   return (
     <section className=" ">
-      <div className="relative z-10 flex w-full max-w-screen-xl  min-h-screen flex-col gap-8 py-32 lg:flex-row">
+      <div className="relative z-10 flex w-full max-w-screen-xl flex-col gap-8 py-32 lg:flex-row">
         <div className="flex flex-col justify-evenly lg:w-4/6">
           <div className="mb-8 flex  flex-col items-center lg:mb-0 lg:items-start ">
             <h1 className="text-center lg:text-left text-5xl font-bold text-purple-800">
@@ -35,7 +35,7 @@ const Hero = ({ title, description, image, children }) => {
           <div className="h-[550px] hidden md:block shrink-0 w-2/6">
             <Image
               src={image}
-              className="h-full w-full rounded-md object-cover"
+              className="h-full w-full   object-cover"
               alt={title}
               // sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
             />

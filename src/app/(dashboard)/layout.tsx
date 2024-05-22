@@ -2,8 +2,8 @@
 
 import { cn } from "@/lib/utils";
 import { useStore } from "@/hooks/use-store";
-import { Footer } from "@/layouts/layout/Footer";
-import { Sidebar } from "@/layouts/layout/Sidebar";
+import { Footer } from "@/components/layout/Footer";
+import { Sidebar } from "@/components/layout/Sidebar";
 import { useSidebarToggle } from "@/hooks/use-sidebar-toggle";
 import Header from "@/components/layout/Header";
 

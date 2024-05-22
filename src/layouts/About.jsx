@@ -1,6 +1,6 @@
 import React from "react";
 import HoverCard from "@/components/static/hoverCards";
-import SectionHeader from "@/components/static/section_header";
+import SectionHeader from "@/layouts/section_header";
 
 const About = () => {
   return (
