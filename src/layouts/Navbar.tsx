@@ -62,7 +62,7 @@ export default function Navbar({ className }: { className?: string }) {
         <div className="flex justify-between items-center mb-2">
           <Link
             href="/"
-            className=" text-lg font-bold tracking-tight text-white"
+            className=" text-lg lg:text-2xl lg:font-semibold font-bold tracking-tight text-white"
           >
             Digital Humanities
           </Link>

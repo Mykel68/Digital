@@ -25,7 +25,7 @@ const CallToAction = () => {
           Explore endless possibilities, broaden your horizons, and embark on an
           exciting journey of learning and discovery.
         </p>
-        <Button className="px-8 py-3 rounded-full bg-primary hover:bg-primary-dark transition duration-300">
+        <Button className="px-8 py-3 rounded-full bg-blue-600 hover:bg-primary-dark transition duration-300">
           Get Started
         </Button>
       </div>
